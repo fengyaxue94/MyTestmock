@@ -1,0 +1,14 @@
+[
+  {
+    "description":"动态的返回一些参数值",
+    "request":{
+      "method" :"get",
+      "uri":"/template"
+    },
+    "response":{
+      "text":{
+        "template":"${req.queries['name']}"
+      }
+    }
+  }
+]
